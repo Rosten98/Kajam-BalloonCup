@@ -267,10 +267,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b22d306364b0234c9574e97c3830f9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
   jumpHeight: 200
   NumberJumps: 0
   MaxJumps: 2
+  speed: 20
 --- !u!1 &419746947
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 419746949}
   - component: {fileID: 419746948}
   - component: {fileID: 419746951}
+  - component: {fileID: 419746952}
   m_Layer: 0
   m_Name: Balloon
   m_TagString: Untagged
@@ -392,6 +393,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &419746952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419746947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 082ccc3439f129d46b7fc48844ceda95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,10 +520,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55e292100788ad740b4f568bb9cdec52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
   jumpHeight: 200
   NumberJumps: 0
   MaxJumps: 2
+  speed: 20
 --- !u!50 &1225033222
 Rigidbody2D:
   serializedVersion: 4
